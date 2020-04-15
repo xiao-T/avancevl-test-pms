@@ -9,6 +9,6 @@ const app = new Koa()
 
 app.use(static('./dist'))
 
-app.listen(3000)
+app.listen()
 
-console.log('server run on port: 3000')
+console.log('server run on port: default')
