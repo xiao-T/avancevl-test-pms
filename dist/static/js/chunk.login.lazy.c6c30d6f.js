@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{65:function(e,a,n){},70:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),i=n(64),o=(n(65),function(){return c.a.createElement("div",{className:"login"},c.a.createElement("div",{className:""},"login"),c.a.createElement(i.a,{color:"primary"},"material button"))});a.default=o}}]);

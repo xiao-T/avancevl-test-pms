@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{67:function(e,n,r){},71:function(e,n,r){"use strict";r.r(n);var t=r(0),c=r.n(t),i=(r(67),function(){return c.a.createElement("div",{className:"register"},"register color: blue")});n.default=i}}]);
