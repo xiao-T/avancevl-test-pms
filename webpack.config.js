@@ -110,7 +110,7 @@ module.exports = (env, argv) => {
   let chunkFilename = 'chunk.[name]'
 
   if (mode === 'production') {
-    outPath = 'dist'
+    outPath = 'build'
     filename = '[name].[contenthash:8]'
     chunkFilename = 'chunk.[name].[contenthash:8]'
   }
