@@ -3,18 +3,12 @@
  * by xiaoT
  */
 
-const http = require('http')
+const Koa = require('koa')
+const static = require('koa-static')
+const app = new Koa()
 
-// const hostname = '127.0.0.1'
+app.use(static('./dist'))
 
-const port = 3000
+app.listen(3000)
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World!\n');
-})
-
-server.listen(port, () => {
-  console.log(`server run port: ${port}`)
-})
+console.log('server run on port: 3000')
