@@ -3,12 +3,22 @@
  * by xiaoT
  */
 
-const Koa = require('koa')
-const static = require('koa-static')
-const app = new Koa()
+// const Koa = require('koa')
+// const static = require('koa-static')
+// const app = new Koa()
 
-app.use(static('./dist'))
+// app.use(static('./dist'))
 
-app.listen()
+// app.listen(8080)
 
-console.log('server run on port: default')
+// console.log('server run on port: 8080')
+const http = require('http')
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200
+  res.end('hhh')
+})
+
+server.listen(8080, () => {
+  console.log('server run on port 8080 by node http')
+})
