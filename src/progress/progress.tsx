@@ -10,7 +10,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 const useContainerStyles = makeStyles({
   progressContainer: {
-    padding: '16px 8px'
+    padding: '16px 24px 0 24px'
   },
   liveProgress: {
     width: '8.75rem',
@@ -123,8 +123,8 @@ const usePastTimeStyles = makeStyles({
     fontSize: '12px',
     backgroundColor: '#222529',
     padding: '1rem 24px',
-    marginLeft: '-24px',
     marginRight: '-24px',
+    marginLeft: '-24px',
     marginTop: '1rem'
   }
 })

@@ -10,13 +10,15 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import { makeStyles } from '@material-ui/core/styles'
 
 import Progress from './progress/'
+import MainContent from './mainContent/'
 
 const useStyles = makeStyles({
   root: {
     background: '#1c1d1f',
     color: '#cdcecd',
     minHeight: '100vh',
-    fontSize: '4.26667vw'
+    fontSize: '4.26667vw',
+    padding: 0
   }
 })
 const App: FC<{}> = (): JSX.Element => {
@@ -25,6 +27,7 @@ const App: FC<{}> = (): JSX.Element => {
     <Container className={classes.root}>
       <CssBaseline />
       <Progress />
+      <MainContent />
     </Container>
   )
 }
